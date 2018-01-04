@@ -1,0 +1,9 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: consumer-user
+eureka:
+  client:
+    service-url:
+      default-url: http://127.0.0.1:1000/eureka/
